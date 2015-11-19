@@ -1,0 +1,113 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family: Roboto;
+}
+
+#mainIniciaSesion
+{
+    width: 100%;
+    height: 100%;
+    background: beige;
+}
+
+#iniciaElementos
+{
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+    #iniciaElementos > h2
+    {
+        width: 100%;
+        margin-top: 30%;
+        font-size: 30px;
+        color: #3489db;
+        text-shadow: 0px 1px #48649f;
+    }
+
+    #iniciaElementos > h3
+    {
+        color: #3489db;
+        width: 100%;
+        margin-top: 2%;
+        text-shadow: 0px 1px #48649f;
+        font-size: 30px;
+    }
+
+#usuarioDiv
+{
+    width: 100%;
+    margin-top: 2%;
+    font-size: 20px;
+    text-shadow: 0px 1px #48649f;
+    color: #3489db;
+}
+
+#Iemail
+{
+     font-size: 20px;
+    width: 80%;
+    height: 40;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#Icontrasena
+{
+    font-size: 20px;
+    width: 80%;
+    height: 40;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#Inicia
+{
+    font-size: 20px;
+    width: 50%;
+    height: 40;
+    margin-top: 10%;
+    text-align: center;
+    background: #3489db;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 8px 0px 0px #48649f;
+}
+
+#inicia:active
+{
+    transition: .2s all;
+        font-size: 20px;
+        width: 50%;
+        height: 40;
+        margin-top: 11%;
+        text-align: center;
+        background: #3489db;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 3px 0px 0px #48649f;
+        margin-bottom: -1%;
+}
+
+#registro
+{
+    float: left;
+        margin-left: 15%;
+        font-size: 20px;
+        width: 70%;
+        height: 40;
+        margin-top: 10%;
+        text-align: center;
+}

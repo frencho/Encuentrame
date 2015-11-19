@@ -1,0 +1,31 @@
+<html>
+    <head>
+         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+       <link rel="stylesheet" href="Estilos/estilos.css" type="text/css">
+        <script src="Funciones/funsiones.js"></script>
+        <title>Encuentrame</title>
+    </head>
+    <body>
+        
+        <div id="mainCargando">
+            <div id="cargando">
+                <img src="Imagenes/cargando.png">
+            </div>
+            <h2 id="lblCargando">Cargando...</h2>
+            <div id="registroElementos">
+                <h2 id="lblRegistro">Registro</h2>
+                <input id="Rnombre" type="text" placeholder="Nombre...">
+                <input id="Remail" type="email" placeholder="Correo...">
+                <input id="Rcontrasena" type="password" placeholder="Contraseña...">
+                <input id="RCcontrasena" type="password" placeholder="Confirme contraseña...">
+                <input id="Registrarme" type="submit" onclick="registro()">
+                <a href="Cuerpo/InicioSesion.html" id="iniciaSesion">O inicia Sesión</a>
+            </div>
+        </div>
+        
+    </body>
+    <script>
+        window.addEventListener('load',cargando,true);
+    </script>
+</html>

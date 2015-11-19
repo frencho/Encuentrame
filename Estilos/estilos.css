@@ -1,0 +1,148 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family: Roboto;
+}
+
+#mainCargando
+{
+    width: 100%;
+    height: 100%;
+    background: beige;
+}
+
+#cargando
+{
+    float: left;
+    width: 70%;
+    height: 70%;
+    margin-top: 25%;
+    margin-left: 15%;
+}
+
+    #cargando > img
+    {
+        max-width: 100%;    
+    }
+
+#lblCargando
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -30%;
+    color: #3489db;
+    text-shadow: 2px 2px #48649f;
+}
+
+#mainRegistro
+{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+#registroElementos
+{
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+    #lblRegistro
+    {
+        font-size: 40px;
+        margin-top: 25%;   
+        color: #3489db;
+        text-shadow: 2px 2px #48649f;
+    }
+
+    #Rnombre
+    {
+        font-size: 20px;
+        width: 80%;
+        height: 40;
+        margin-top: 10%;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #Remail
+    {
+        font-size: 20px;
+        width: 80%;
+        height: 40;
+        margin-top: 10%;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #Rcontrasena
+    {
+        font-size: 20px;
+        width: 80%;
+        height: 40;
+        margin-top: 10%;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #RCcontrasena
+    {
+        font-size: 20px;
+        width: 80%;
+        height: 40;
+        margin-top: 10%;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #Registrarme
+    {
+        font-size: 20px;
+        width: 50%;
+        height: 40;
+        margin-top: 10%;
+        text-align: center;
+        background: #3489db;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 8px 0px 0px #48649f;
+    }
+
+    #Registrarme:active
+    {
+        transition: .2s all;
+        font-size: 20px;
+        width: 50%;
+        height: 40;
+        margin-top: 11%;
+        text-align: center;
+        background: #3489db;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 3px 0px 0px #48649f;
+        margin-bottom: -1%;
+    }
+
+    #iniciaSesion
+    {
+        float: left;
+        margin-left: 15%;
+        font-size: 20px;
+        width: 70%;
+        height: 40;
+        margin-top: 10%;
+        text-align: center;
+    }

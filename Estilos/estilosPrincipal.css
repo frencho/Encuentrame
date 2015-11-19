@@ -1,0 +1,108 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family: Roboto;
+}
+
+#mainFrame
+{
+    width: 100%;
+    height: 100%;
+    background: beige;
+}
+
+#mapa
+{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+    #mapa > img
+    {
+        margin-top: 15%;    
+        border-radius: 5px;
+        box-shadow: 5px 5px 25px 0px  gray; 
+    }
+
+#botones
+{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+#btnArriba
+{
+    margin-top: -15%;
+    float: left;
+    width: 40%;
+    height: 45%;
+    margin-bottom: 15%;
+    margin-left: 30%;
+    background: #FBC02D;
+    border: none;
+    border-radius: 100%;
+    box-shadow: 1px 15px 0px 0px #F57F17; 
+    outline: none;
+}
+
+    #btnArriba:active
+    {
+        transition: .2s all;
+        margin-top: -10%;
+        float: left;
+        width: 40%;
+        height: 45%;
+        margin-bottom: 10%;
+        margin-left: 30%;
+        background: #FBC02D;
+        border: none;
+        border-radius: 100%;
+        box-shadow: 1px 5px 0px 0px #F57F17; 
+        outline: none;
+    }
+
+
+    #btnArriba > img
+    {
+        max-height: 100%;    
+    }
+
+#btnAbajo
+{
+    outline: none;
+    float: left;
+    width: 40%;
+    height: 45%;
+    background: #FF3D00;
+    border: none;
+    border-radius: 100%;
+    margin-left: 30%;
+    box-shadow: 1px 15px 0px 0px #BF360C;
+}
+
+    #btnAbajo:active
+    {
+        outline: none;
+        transition: .2s all;
+        margin-top: 10px;
+        float: left;
+        width: 40%;
+        height: 45%;
+        background: #FF3D00;
+        border: none;
+        border-radius: 100%;
+        margin-left: 30%;
+        box-shadow: 1px 5px 0px 0px #BF360C;
+    }
+
+    #btnAbajo > img
+    {
+        max-height: 95%;
+    }

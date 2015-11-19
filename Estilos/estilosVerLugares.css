@@ -1,0 +1,98 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family: Roboto;
+    background: beige;
+}
+
+#principal
+{
+    width: 100%;
+    height: 100%;
+}
+
+#formulario
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+    #formulario > div
+    {
+        width: 70%;
+        margin-left: 15%;
+        height: 43%;
+        text-align: left;
+        margin-bottom: 5%;
+    }
+
+#Lugar
+{
+    background: #C3F4BE;
+}
+
+#encabezado
+{
+    background:rgba(0,0,0,.1);
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+#cerrar
+{
+    float: right;   
+    height: 130%;
+    width: 12%;
+    background: rgba(0,0,0,.2);
+    margin-top: -3%;
+    border: none;
+}
+
+#cuerpo
+{
+    background: #C3F4BE;
+    width: 100%;
+    height: 84%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+#atras
+{
+    font-size: 20px;
+    width: 30%;
+    height: 40;
+    margin-top: 10%;
+    margin-left: 35%;
+    text-align: center;
+    background: #3489db;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 8px 0px 0px #48649f;
+}
+
+#atras:active
+{
+    transition: .2s all;
+    font-size: 20px;
+    width: 30%;
+    height: 40;
+    margin-top: 11%;
+    text-align: center;
+    background: #3489db;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 3px 0px 0px #48649f;
+    margin-bottom: -1%;
+}
